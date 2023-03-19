@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1{
+  text-shadow: 4px 0px 0px rgba(0,0,0,0.22);
+}
+
+
+/****************************** Navigation Bar Design *******************************/
+.glassmorphism{
+  background: rgba(106, 17, 248, 0.185);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/****************************** Our Key Fearutes Background *******************************/
+.KeyFeartures{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/009/668/661/original/organic-blob-shapes-hand-drawn-illustration-free-png.png);
+  background-repeat: no-repeat;
+}
+
+
+/****************************** Who We Work With Section Background *******************************/
+/* .whoWeWorWith, .processWeFollow, .industriesWeServe{
+  background-image: url(https://images8.design-editor.com/95/9554401/3958%2F8EA74DF6-870E-4C6D-1A57-361040AB0ED2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+
